@@ -9,9 +9,7 @@ A Movie Search API  request takes the following form:
 
 Use the following steps to run the application locally:
 
-    ```bash
     $http://localhost:9080/GetStartedJava/api/visitors
-    ```
 
 
 2. Download and install Liberty, then use it to run the built application from step 1:
