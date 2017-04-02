@@ -1,19 +1,18 @@
-# Java Hello World Sample
+# Movie Search API
 
 This project contains a simple servlet application.
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM-Bluemix/java-helloworld)
 
-## Running the application using the command-line
+## Movie Search API Request Format
 
-This project can be built with [Apache Maven](http://maven.apache.org/). The project uses [Liberty Maven Plug-in][] to automatically download and install Liberty from the [Liberty repository](https://developer.ibm.com/wasdev/downloads/). Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
+A Movie Search API  request takes the following form:
 
 Use the following steps to run the application locally:
 
-1. Execute full Maven build to create the `target/JavaHelloWorldApp.war` file:
     ```bash
-    $ mvn clean install
+    $http://localhost:9080/GetStartedJava/api/visitors
     ```
+
 
 2. Download and install Liberty, then use it to run the built application from step 1:
     ```bash
